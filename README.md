@@ -38,6 +38,7 @@ After applying these modifications, we could try to run the script "example_Figu
 
 
 Second, we explain the scripts attached to this page.
+
 (1) "plot_dispersion_resLat.py"  calculates the dispersion relationship of EMIC waves
 
 (2) "plot_s_affected_by_Bwy.py" calculates the dimensionless parameter |S| affected by the EMIC wave amplitude.
