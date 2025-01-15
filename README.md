@@ -39,14 +39,23 @@ After applying these modifications, we could try to run the script "example_Figu
 
 Second, we explain the scripts attached to this page.
 (1) "plot_dispersion_resLat.py"  calculates the dispersion relationship of EMIC waves
+
 (2) "plot_s_affected_by_Bwy.py" calculates the dimensionless parameter |S| affected by the EMIC wave amplitude.
+
 (3) "plot_trajectory_EMIC_Bwy.py" calculates the trajectories of three selected protons, corresponding to EMIC wave amplitudes of 0.1 nT, 1.0 nT, and 3.0 nT.
+
 (4) "plot_s_affected_by_freq.py" computes the parameter |S| for 0.7Ω_He_eq, 0.8Ω_He_eq, and 0.9Ω_He_eq.
+
 (5) "plot_trajectory_EMIC_freq.py" calculates the proton trajectories for 0.7Ω_He_eq, 0.8Ω_He_eq, and 0.9Ω_He_eq.
+
 (6) "plot_s_affected_by_wna.py" plots the parameter |S| for various WNA values of 10°, 40°, and 70°
+
 (7) "plot_Bessel_function_wna_10deg_40deg_70deg.py" analyzes the discontinuities in the parameter |S|
+
 (8) "plot_trajectory_EMIC_wna.py" calculates the proton trajectories for WNA values of 10°, 40°, and 70°
+
 (9) "plot_diffusion_coef.py" plots pitch angle advection and diffusion coefficients obtained from  "cal_50keV_diffusion_coef_678.py".
+
 (10) "plot_trajectory_EMIC_freq_aeq404142.py" plots the trajectories of three selected protons with αeq0 of 40°, 41°, and 42°. The EMIC amplitude is 3 nT, the frequency is 0.7Ω_He_eq, and the wave normal angle is 0°.
 
 To successfully run scirpts (1)-(10), the scripts "refr_index_full_left.py" and "numlib.py" are also required.
