@@ -4,7 +4,8 @@ Most of these programs were modified from the WPIT module, available at https://
 
 First, let's begin by explaing the script "example_Figures_8l_8o_70deg_psi.py".
 
-The script "example_Figures_8l_8o_70deg_psi.py" was modified from the WPIT test example (available at https://github.com/stourgai/WPIT/blob/main/WPIT_tests/Latitudinal%20dependence%20of%20nonlinear%20interaction%20between%20electromagnetic%20ion%20cyclotron%20wave%20and%20terrestrial%20ring%20current%20ions.ipynb).
+The script "example_Figures_8l_8o_70deg_psi.py" calculates the trajectories of 50 keV protons interacting with the oblique EMIC waves (wave normal angle is 70°).
+This script was modified from the WPIT test example (available at https://github.com/stourgai/WPIT/blob/main/WPIT_tests/Latitudinal%20dependence%20of%20nonlinear%20interaction%20between%20electromagnetic%20ion%20cyclotron%20wave%20and%20terrestrial%20ring%20current%20ions.ipynb).
 
 Here are the modifications we suggest:
 
