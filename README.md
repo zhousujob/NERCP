@@ -3,9 +3,13 @@
 Most of these programs were modified from the WPIT module, available at https://github.com/stourgai/WPIT
 
 First, let's begin by explaing the script "example_Figures_8l_8o_70deg_psi.py".
+
 The script "example_Figures_8l_8o_70deg_psi.py" was modified from the WPIT test example (available at https://github.com/stourgai/WPIT/blob/main/WPIT_tests/Latitudinal%20dependence%20of%20nonlinear%20interaction%20between%20electromagnetic%20ion%20cyclotron%20wave%20and%20terrestrial%20ring%20current%20ions.ipynb).
+
 Here are the modifications we suggest:
+
 (1) It should be noted that the perpendicular wave vector kx is not zero for oblique EMIC waves. Therefore, for each step of the Runge-Kutta algorithm, we should potentially remove the line “kx_run=0”, which appears after the line: “Bxw_run, Byw_run, Bzw_run, Exw_run, Eyw_run, Ezw_run=wave.wave_amplitudes_bell(mu_run,P_run,D_run,S_run,Byw0_s,theta0)”  
+
 (2) In each step of the Runge-Kutta method, there is a line of code following “ #calculate the wpi parameters”.
 We should replace “B0” with “B_run”. Please refer to Eq. (18) of Su et al. (2014), where β is defined as:
 β=-(k⊥ p⊥)/(qB_D )
