@@ -23,7 +23,7 @@ In other words, using “B0” does not affect the calculation in this case.
 
 (3) There may be another issue regarding the fourth step of the Runge-Kutta method. We believe that the term “0.5*h*” should be changed to “h*”.
 
-(4) The nonlinear behavior is highly sensitive to even a small change in the initial latitude of a proton. In our study, each proton was launched from its magnetic mirror point. 
+(4) Nonlinear behavior is highly sensitive to even a small change in the initial latitude of a proton. In our study, each proton was launched from its magnetic mirror point. 
 To determine this point, we used Eq. (33) from Summers et al. (2007) to obtain the latitude of the magnetic mirror point. 
 For a proton with an initial equatorial pitch angle αeq0=50°, the latitude of the magnetic mirror point is calculated to be “20.1854488137971” degree.
 
