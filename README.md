@@ -35,6 +35,7 @@ We would like to acknowledge Tourgaidis & Sarris (2022) for sharing the WPIT mod
 For any questions, please feel free to contact me via this email (zhousujob@gmail.com)
 
 References:
+
 Tourgaidis, S., & Sarris, T. (2022). Wave-particle interactions toolset: A python-based toolset to model wave-particle interactions in the magnetosphere. Frontiers in Astronomy and Space Sciences, 9, 1005598. https://doi.org/10.3389/fspas.2022.1005598
 Su, Z., Zhu, H., Xiao, F., Zheng, H., Zhang, M., Liu, Y. C.-M., et al. (2014). Latitudinal dependence of nonlinear interaction between electromagnetic ion cyclotron wave and terrestrial ring current ions. Physics Of Plasmas, 21(5). https://doi.org/10.1063/1.4880036
 
