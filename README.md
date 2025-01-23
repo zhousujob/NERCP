@@ -1,7 +1,10 @@
 
 These scripts are designed to study the nonlinear effects of ring current protons interacting with electromagnetic cyclotron (EMIC) waves.
 
-Most of these programs are modified from the WPIT module, available at https://github.com/stourgai/WPIT
+Most of these programs were modified from the WPIT module, available at https://github.com/stourgai/WPIT
+
+Script "example_Figures_8l_8o_70deg_psi.py" calculates the trajectories of 50 keV protons interacting with the oblique EMIC waves (wave normal angle is 70°).
+This script was modified from the WPIT test example (available at https://github.com/stourgai/WPIT/blob/main/WPIT_tests/Latitudinal%20dependence%20of%20nonlinear%20interaction%20between%20electromagnetic%20ion%20cyclotron%20wave%20and%20terrestrial%20ring%20current%20ions.ipynb).
 
 For detailed information regarding the modifications we made, please contact Dr. Su Zhou (zhousujob@gmail.com)
 
